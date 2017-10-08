@@ -1,13 +1,13 @@
 ---
 - 
 - !ruby/object:RPG::Actor
-  name: Eric
+  name: Jeck
   face_index: 0
   character_index: 0
   initial_level: 1
-  face_name: Actor4
+  face_name: jeck
   class_id: 1
-  character_name: Actor4
+  character_name: jeck
   id: 1
   features: []
   note: ''
@@ -17,7 +17,7 @@
   - 0
   - 1
   - 0
-  nickname: Silver Reaper
+  nickname: Tempura Man
   description: "A veteran warrior who fought on many battlefields.\r\nHe becomes uncontrollable in battle when berserk."
   max_level: 99
 - !ruby/object:RPG::Actor
