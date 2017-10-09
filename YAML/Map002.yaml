@@ -201,7 +201,7 @@ events:
   5: !ruby/object:RPG::Event
     id: 5
     name: EV005
-    x: 2
+    x: 1
     y: 2
     pages:
     - !ruby/object:RPG::Event::Page

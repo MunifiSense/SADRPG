@@ -1,13 +1,13 @@
 ---
 1: !ruby/object:RPG::MapInfo
-  scroll_x: 272
+  scroll_x: 320
   name: intro
   expanded: true
   order: 1
-  scroll_y: 208
+  scroll_y: 240
   parent_id: 0
 2: !ruby/object:RPG::MapInfo
-  scroll_x: 1102
+  scroll_x: 570
   name: Academic Hexagon
   expanded: false
   order: 3

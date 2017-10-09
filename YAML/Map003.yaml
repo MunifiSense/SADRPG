@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-parallax_name: ''
+parallax_name: Ocean1
 height: 13
 events:
   1: !ruby/object:RPG::Event

@@ -161,7 +161,7 @@ module YEA
     # not adjust themselves properly.
     #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     RESIZE_WIDTH  = 640
-    RESIZE_HEIGHT = 416
+    RESIZE_HEIGHT = 480
     
     #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     # - Adjust Animation Speed -
