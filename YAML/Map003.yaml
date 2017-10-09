@@ -398,7 +398,7 @@ events:
       direction_fix: false
       through: false
       priority_type: 0
-      trigger: 0
+      trigger: 1
       list:
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [jeck, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [(This seems like a nice seat.)]}

@@ -48,7 +48,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [jeck, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['(Alright, time for my first class!)']}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 15, 1, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 17, 1, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
@@ -101,7 +101,7 @@ events:
       - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [jeck, 0, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['(Alright, time for my first class!)']}
       - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [3, 3, 0]}
-      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 1, 1, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 3, 3, 1, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
       - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
