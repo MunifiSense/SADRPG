@@ -1310,7 +1310,7 @@ events:
         wait: false
         list:
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
+      walk_anime: false
       step_anime: false
       direction_fix: false
       through: false
@@ -1356,7 +1356,7 @@ events:
         wait: false
         list:
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
+      walk_anime: false
       step_anime: false
       direction_fix: false
       through: false
@@ -1402,7 +1402,7 @@ events:
         wait: false
         list:
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
+      walk_anime: false
       step_anime: false
       direction_fix: false
       through: false
@@ -1448,7 +1448,7 @@ events:
         wait: false
         list:
         - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
-      walk_anime: true
+      walk_anime: false
       step_anime: false
       direction_fix: false
       through: false

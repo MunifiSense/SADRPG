@@ -661,9 +661,70 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*27]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*28]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ds_face23-24, 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Welcome to Calculus I, everyone!']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Welcome to Calculus I. Before we get]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['started, please get out a sheet of']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [paper and a pen and write your name]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at the top.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 303, p: [1, 16]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [jeck, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [(Here we go!)]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(Is this a pop quiz?!)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ds_face23-24, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Are you a boy or a girl?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [[Boy, Girl], 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, Boy]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [4, 4, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: -68.0, g: -68.0, b: -68.0, a: 0.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [jeck, 0, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['Yes, it''s true. It might not look like']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['it, but I''m actually... a dude.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 223, p: [!ruby/object:Tone {r: 0.0, g: 0.0, b: 0.0, a: 0.0}, 60, true]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, Girl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: [jeck, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['(Yes, I''m most definitely a girl.)']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ds_face23-24, 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Everybody here is in the right room,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['right? Ok, then take one of these']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [course outlines and pass them down...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: PhoneVibrate, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [jeck, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['(Oh, a message?)']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, asunaphone, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [1, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Subject: SFU ANIME FALL ''17 Icebreaker']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['From: SFU Anime']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['To: \N[1]@sfu.moe']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['SFU ANIME: FALL ''17 ICEBREAKER']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [' ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [Hello everyone!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['SFU Anime is back to kick start this semester with ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['our Fall Icebreaker! Join us for an evening of ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['anime-themed icebreaker games, meeting fellow ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['members, and a chance win some awesome raffle ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['prizes! The icebreaker will take place on Monday, ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['September 4th, from 5:00 pm to 7:30 pm in the ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['EHC Atrium. Remember, there is no admission fee and ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['you don''t have to be a club member or an SFU student ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [to attend so feel free to bring a friend!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Check out the Facebook event page for more ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['information, we''ll have our event schedule up soon so ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [stay tuned! We hope to see you there!!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['--------------------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [' ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['EVENT DETAILS:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Date: Monday, September 4th']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Time: 5:00PM to 7:30PM']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['Location: EHC Atrium']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ds_face23-24, 0, 0, 2]}
@@ -698,10 +759,6 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [(Hope I could join a cool club or]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [something. Maybe anime club. I love]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [anime and Japan!)]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, asunaphone, 0, 0, 0, 0, 100, 100, 255, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [jeck, 0, 0, 0]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [(Class is almost over. Nice!)]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [ds_face23-24, 0, 0, 2]}
