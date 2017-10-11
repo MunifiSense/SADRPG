@@ -108,6 +108,7 @@ module RPG
   require "Scene_Debug.rb"
   require "Scene_Battle.rb"
   require "Scene_Gameover.rb"
+  require "Layer_Collision.rb"
   require "Ace_Core_Engine.rb"
   require "Ace_Battle_Engine.rb"
   require "Ace_Menu_Engine.rb"
