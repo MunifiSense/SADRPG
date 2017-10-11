@@ -11,7 +11,7 @@
   name: Academic Hexangle
   expanded: false
   order: 2
-  scroll_y: 208
+  scroll_y: 240
   parent_id: 1
 3: !ruby/object:RPG::MapInfo
   scroll_x: 336
