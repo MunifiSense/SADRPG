@@ -3,7 +3,7 @@
 - !ruby/object:RPG::Actor
   name: Jeck
   face_index: 0
-  character_index: 4
+  character_index: 1
   initial_level: 1
   face_name: jeck
   class_id: 1

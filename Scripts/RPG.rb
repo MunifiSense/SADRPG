@@ -114,4 +114,9 @@ module RPG
   require "Ace_Save_Engine.rb"
   require "Ace_Message_System.rb"
   require "Animated_Title_Screen.rb"
+  require "Map_Effects.rb"
+  require "Keyboard_Input.rb"
+  require "Text_Input.rb"
+  require "Word_Wrap.rb"
+  require "Stop_All_Movement.rb"
 end

@@ -45,6 +45,7 @@ events:
       priority_type: 0
       trigger: 3
       list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['ats_all(:append_text, false)']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, mistake, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
@@ -57,23 +58,12 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
       - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: itsumonofuukei, volume: 100, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I stepped off the cramped bus and followed the]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['crowd of people. It’s September, but it looks like']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['the clear blue sky of summer is here to stay,']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [at least for a little while longer.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I stepped off the cramped bus and followed the crowd of people. It’s September, but it looks like the clear blue sky of summer is here to stay, at least for a little while longer.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I took a deep breath. The fresh morning air at the]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [top of Bernabee Mountain was invigorating. I’d just]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['gotten here, but I love this place already. I think I’m']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [going to like it here.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I took a deep breath. The fresh morning air at the top of Bernabee Mountain was invigorating. I’d just gotten here, but I love this place already. I think I’m going to like it here.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, SFUtoAQ, 0, 0, 0, 0, 100, 100, 255, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Today is my first day as a student at Some Funky]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['University, or SFU for short. It’s one of the top ranked']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [universities in the country. All my studying last year]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['thankfully paid off, so now I’m ready to take on whatever']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [challenges lie ahead!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Today is my first day as a student at Some Funky University, or SFU for short. It’s one of the top ranked universities in the country. All my studying last year thankfully paid off, so now I’m ready to take on whatever challenges lie ahead!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 2, 1, 6, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 322, p: [1, jeck, 0, jeck, 0]}
