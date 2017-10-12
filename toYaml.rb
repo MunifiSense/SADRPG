@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+require 'fileutils'
 
-%x[make clean-yaml]
+FileUtils.rm_rf("YAML/.", secure: true)
 output = %x[make unpack]
 if $? != 0
   puts output

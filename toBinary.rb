@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
+require 'fileutils'
 
-%x[make clean-data]
+FileUtils.rm_rf("Data/.", secure: true)
 output = %x[make pack]
 if $? != 0
   puts output
