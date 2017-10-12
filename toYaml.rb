@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+%x[make clean-yaml]
 output = %x[make unpack]
 if $? != 0
   puts output

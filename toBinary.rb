@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+%x[make clean-data]
 output = %x[make pack]
 if $? != 0
   puts output
