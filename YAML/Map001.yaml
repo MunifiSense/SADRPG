@@ -56,9 +56,9 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: BusStopping, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [600]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: itsumonofuukei, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: itsumonofuukei, volume: 75, pitch: 100}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I stepped off the cramped bus and followed the crowd of people. It’s September, but it looks like the clear blue sky of summer is here to stay, at least for a little while longer.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I stepped off the cramped bus and followed the crowd of people. It’s September, but it looks like the clear blue sky of summer is here to stay, at least for a bit longer.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I took a deep breath. The fresh morning air at the top of Bernabee Mountain was invigorating. I’d just gotten here, but I love this place already. I think I’m going to like it here.']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, SFUtoAQ, 0, 0, 0, 0, 100, 100, 255, 0]}
