@@ -45,7 +45,6 @@ EOF
 	exit 1
 fi
 
-echo Working
 # This is to try to fix the problem of merge conflicts
 # Figures out if the Data folder is newer than the YAML folder
 if [ "$(find Data -newer YAML)" != "Data" ] && [ "$(find Data -newer YAML)" != "" ]; then
