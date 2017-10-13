@@ -1,3 +1,5 @@
 #!/bin/sh
 
-cmd.exe /c toBinary.rb
+if [ "$(find YAML -newer Data)" != "YAML" ] && [ "$(find YAML -newer Data)" != "" ]; then
+  cmd.exe /c toBinary.rb
+fi
